@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "mssql1": {
-      "type": "mssql.local",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/gameficadbserver/databases/GameFica_db",
+      "type": "mssql.azure",
       "connectionId": "ConnectionStrings:DefaultConnection"
     }
   }

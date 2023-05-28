@@ -8,11 +8,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Pages\logo1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Imagens\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\imagens\logo2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\imagens\logo1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
