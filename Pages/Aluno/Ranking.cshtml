@@ -1,0 +1,16 @@
+﻿@page
+@model RankingModel
+@{
+    ViewData["Title"] = "Ranking";
+}
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="text-center">
+        <h1 class="display-4">Ranking</h1>
+        <p>Pagina do Ranking...</p>
+    </div>
+}

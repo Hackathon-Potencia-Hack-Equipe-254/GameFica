@@ -1,0 +1,18 @@
+﻿@page
+@model AlunoModel
+@{
+    ViewData["Title"] = "Aluno";
+}
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+@if (SignInManager.IsSignedIn(User))
+{
+
+<div class="text-center">
+    <h1 class="display-4">Bem vindo Aluno.</h1>
+    <p>Pagina do aluno...</p>
+</div>
+
+}
