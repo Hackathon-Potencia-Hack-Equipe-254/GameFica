@@ -1,0 +1,19 @@
+GameFica
+iY6eMhgeECzJ5qp
+
+fabiohcnobre@hotmail.com
+
+
+Microsoft.EntityFrameworkCore.SqlServer
+
+Server=tcp:gameficadbserver.database.windows.net,1433;Initial Catalog=GameFica_db;Persist Security Info=False;User ID=gamefica;Password=iY6eMhgeECzJ5qp;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+Data Source=tcp:gameficadbserver.database.windows.net,1433;Initial Catalog=GameFica_db;User Id=gamefica@gameficadbserver;Password=iY6eMhgeECzJ5qp
+
+Nossos principais concorrentes são:
+Google Sala de aula 
+
+Diferencial:
+Gamificação dos processos educacionais
+Educação baseada em objetivos
+Suporte do professor para com o aluno de maneira simplificada
